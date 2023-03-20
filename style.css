@@ -142,7 +142,6 @@ button {
 }
 @media screen and (min-width: 550px) {
     #checkboxtxt {font-size: 1.9vw;}
-    #registrationbuttoncon {padding-left: 1%;}
 }
 @media screen and (min-width: 1000px) {
     #checkboxtxt {font-size: 1.5vw;}
