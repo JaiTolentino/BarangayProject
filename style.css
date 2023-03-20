@@ -3,6 +3,7 @@
 
 h1 {
     font-family: 'Anek Gujarati';
+    margin: 0;
 }
 p {
       font-family: 'Anek Gujarati';
@@ -45,7 +46,18 @@ body {
     margin-right: auto;
     background: rgba(0, 136, 53, 0.6);
     width: 80%;
+    height: 100vh;
+    
+}
+.redbgs {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(0, 136, 53, 0.6);
+    width: 80%;
     height: 100%;
+    margin-top: 0px;
+    margin-bottom: none;
     
 }
 .maintext {
@@ -53,6 +65,7 @@ body {
     text-align: center;
     font-weight: bolder;
     font-size: 10vw, 10vh;
+    padding-bottom: 10%;
 }
 .h1con {
     width: 70%;
@@ -125,7 +138,7 @@ button {
     margin-left: 20%;
     padding-top: 1%;
     width: 45vw;
-    height: 8.5vh
+    height: 8.5vh;
 }
 #termscheck {
     width: 3vh;
@@ -133,7 +146,6 @@ button {
 #checkboxtxt {
     font-weight: bolder;
     font-family: 'Anek Gujarati';
-    font-size: 1.5vh;
     padding-left: 2%;
     text-align: center;
 }
@@ -156,45 +168,77 @@ button {
     border-width: 3px;
     background-color: rgb(255, 255, 255, .5);
 }
+#tdptext {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
 .tdpwelcomecon {
     margin-left: auto;
     margin-right: auto;
     padding-right: 15%;
 }
 #registerdetailscon {
-    top: -10%;
+    margin-top: none;
     display: block;
     margin-left: 5%;
     margin-right: 5%;
 }
+#whiteline {
+    background-color: white;
+    height: 1px;
+    width: 100%;
+}
+#registertxtcon {
+    margin: 0% 5%;
+    padding-top: 0.1%;
+}
+#registertxt {
+    color: #FBF2CF ;
+}
 .registrationflex {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+.registrationflexsingle {
+    display: grid;
+    justify-items: center;
+    
 }
 #registrationbuttoncon {
-    padding-left: 90%;
+    display: flex;
+    justify-content: end;
+}
+.registertxtdetails {
+    color: #FBF2CF;
+    font-weight: 150;
+}
+#registrationbutton {
+    width: 15vw;
+    border-color: white;
+    background-color: #008335;
+    color: #FBF2CF;
 }
 /* Mobile */
 @media screen and (max-width: 480px) {
     #tdptext {font-size: 5vh;}
-    #registrationbuttoncon {left: 70%;}
-    .registrationflex {grid-template-columns: 1fr}
+    .registrationflex {grid-template-columns: 1fr;}
     body {overflow: visible;}
+    .logocon {height: 8vh;}
+    #registrationbutton {width: 17vw;}
 }
 
 /* Tablet */
-@media screen and (min-width: 768px) {
-    #checkboxtxt {font-size: 1.9vw;}
-    
+@media screen and (max-width: 768px) {
+    #checkboxtxt {font-size: 2.3vw;}
 }
 
 /* Desktop */
 @media screen and (min-width: 992px){
-    #checkboxtxt {font-size: 1.5vw;}
+    #checkboxtxt {font-size: 3vw;}
 }
 
 /* Huge */
 @media screen and (min-width: 1280px) {
-    #checkboxtxt {font-size: 1.5vw;}
-    #registrationbuttoncon {left: 70%;}
+    #checkboxtxt {font-size: 5vw;}
 }
