@@ -11,52 +11,55 @@
 				<img alt="BRGLogo" src="BRGY LOGO.png">
 			</div>
 		</div>
-		<div class="redbg">
+		<div class="redbgs">
             <div id="registertxtcon">
                 <h1 id="registertxt">Registration</h1>
             </div>
+            <div id="whiteline"></div>
             <div id="registerdetailscon">
                 <div class="registrationflex" id="fnamelnamecon">
                     <div id="lnamecon">
-                        <p>LAST NAME</p>
+                        <p class="registertxtdetails">LAST NAME</p>
                         <input type="text" id="lnametxtfield"/>
                     </div>
                     <div id="fnamecon">
-                            <P>FIRST NAME</P>
+                            <P class="registertxtdetails">FIRST NAME</P>
                     <input type="text" id="fnametxtfield"/>
                     </div>
                 </div>
                 <div class="registrationflex" id="emailcontactcon">
                     <div id="emailcon">
-                        <p>EMAIL ADDRESS</p>
+                        <p class="registertxtdetails">EMAIL ADDRESS</p>
                         <input type="text" id="emailaddtxtfield"/>
                     </div>
                     <div id="contactnumcon">
-                        <p>CONTACT NUMBER</p>
+                        <p class="registertxtdetails">CONTACT NUMBER</p>
                         <input type="text" id="contactttfield"/>
                     </div>
                 </div>
                 <div class="registrationflex" id="sexbdaycon">
                     <div id="sexcon">
-                        <p>SEX</p>
+                        <p class="registertxtdetails">SEX</p>
                         <input type="text" id="sextxtfield"/>
                     </div>
                     <div id="bdaycon">
-                        <p>BIRTH DATE</p>
+                        <p class="registertxtdetails">BIRTH DATE</p>
                         <input type="date" id="datefield"/>
                     </div>
                 </div>
-                <div class="registrationflexsingle" id="addresscon">
-                    <p>ADDRESS</p>
-                    <input type="text" id="addresstxtfield"/>
+                <div class="registrationflexsingle">
+                    <div id="addresscon">
+                        <p class="registertxtdetails">ADDRESS</p>
+                        <input type="text" id="addresstxtfield"/>
+                    </div>
                 </div>
                 <div class="registrationflex" id="brgyidmaritalstatcon">
                     <div id="brgynum">
-                        <p>BRGY ID NUMBER</p>
+                        <p class="registertxtdetails">BRGY ID NUMBER</p>
                         <input type="number" id="brgynumfield"/>
                     </div>
                     <div id="maritalstat">
-                        <p>MARITAL STATUS</p>
+                        <p class="registertxtdetails">MARITAL STATUS</p>
                     <select id="maritalstat" name="maritalstatus">
                         <option value=""> </option>
                         <option value="Single">Single</option>
@@ -66,9 +69,11 @@
                     </select>
                     </div>
                 </div>
-                <div class="registrationflexsingle" id="memberhouseoldcon">
-                    <p>NO. OF MEMBER IN HOUSEHOLD</p>
-                    <input type="number" id="memberhouseholdfield"/>
+                <div class="registrationflexsingle">
+                    <div id="memberhousehold">
+                        <p class="registertxtdetails">NO. OF MEMBER IN HOUSEHOLD</p>
+                        <input type="number" id="memberhouseholdfield"/>
+                    </div>
                 </div>
                 <div id="registrationbuttoncon">
                     <button id="registrationbutton" onclick="window.location.href='login.html'">NEXT</button>
