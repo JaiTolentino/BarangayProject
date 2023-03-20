@@ -223,7 +223,6 @@ button {
 @media screen and (max-width: 480px) {
     #tdptext {font-size: 5vh;}
     .registrationflex {grid-template-columns: 1fr;}
-    body {overflow: visible;}
     .logocon {height: 9vh;}
     #registrationbutton {width: 20vw;}
     .h1con {padding-bottom: 90%;}
