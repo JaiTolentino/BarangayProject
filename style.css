@@ -221,11 +221,14 @@ button {
 }
 /* Mobile */
 @media screen and (max-width: 480px) {
-    #tdptext {font-size: 5vh;}
+    #tdptext {font-size: 3.4vh;}
     .registrationflex {grid-template-columns: 1fr;}
     .logocon {height: 9vh;}
     #registrationbutton {width: 20vw;}
-    .h1con {padding-bottom: 90%;}
+    .h1con {padding-bottom: 70%;}
+}
+@media screen and(min-width: 480) {
+    #termscheck {font-size: 100px;}
 }
 
 /* Tablet */
