@@ -225,7 +225,7 @@ button {
     .registrationflex {grid-template-columns: 1fr;}
     body {overflow: visible;}
     .logocon {height: 8vh;}
-    #registrationbutton {width: 17vw;}
+    #registrationbutton {width: 20vw;}
 }
 
 /* Tablet */
