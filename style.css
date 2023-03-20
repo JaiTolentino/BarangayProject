@@ -45,7 +45,7 @@ body {
     margin-right: auto;
     background: rgba(0, 136, 53, 0.6);
     width: 80%;
-    height: 100vh;
+    height: 100%;
     
 }
 .maintext {
@@ -137,15 +137,6 @@ button {
     padding-left: 2%;
     text-align: center;
 }
-@media screen and (min-width: 400px) {
-    #tdptext {font-size: 5vh;}
-}
-@media screen and (min-width: 550px) {
-    #checkboxtxt {font-size: 1.9vw;}
-}
-@media screen and (min-width: 1000px) {
-    #checkboxtxt {font-size: 1.5vw;}
-}
 .tdpbuttoncon {
     display: flex;
     justify-content: center;
@@ -170,12 +161,8 @@ button {
     margin-right: auto;
     padding-right: 15%;
 }
-#registertxtcon {
-    background-color: antiquewhite;
-}
 #registerdetailscon {
     top: -10%;
-    background-color: aqua;
     display: block;
     margin-left: 5%;
     margin-right: 5%;
@@ -185,5 +172,29 @@ button {
     grid-template-columns: 1fr 1fr;
 }
 #registrationbuttoncon {
-    padding-left: 70%;
+    padding-left: 90%;
+}
+/* Mobile */
+@media screen and (max-width: 480px) {
+    #tdptext {font-size: 5vh;}
+    #registrationbuttoncon {left: 70%;}
+    .registrationflex {grid-template-columns: 1fr}
+    body {overflow: visible;}
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+    #checkboxtxt {font-size: 1.9vw;}
+    
+}
+
+/* Desktop */
+@media screen and (min-width: 992px){
+    #checkboxtxt {font-size: 1.5vw;}
+}
+
+/* Huge */
+@media screen and (min-width: 1280px) {
+    #checkboxtxt {font-size: 1.5vw;}
+    #registrationbuttoncon {left: 70%;}
 }
