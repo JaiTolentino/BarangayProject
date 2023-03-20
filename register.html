@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+		<link href='https://fonts.googleapis.com/css?family=Anek Gujarati' rel='stylesheet'>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="headcon">
+			<div class="logocon">
+				<img alt="BRGLogo" src="BRGY LOGO.png">
+			</div>
+		</div>
+		<div class="redbg">
+            <div id="registertxtcon">
+                <h1 id="registertxt">Registration</h1>
+            </div>
+            <div id="registerdetailscon">
+                <div class="registrationflex" id="fnamelnamecon">
+                    <p>LAST NAME</p>
+                    <P>FIRST NAME</P>
+                    <input type="text" id="lnametxtfield"/>
+                    <input type="text" id="fnametxtfield"/>
+                </div>
+                <div class="registrationflex" id="emailcontactcon">
+                    <p>EMAIL ADDRESS</p>
+                    <p>CONTACT NUMBER</p>
+                    <input type="text" id="emailaddtxtfield"/>
+                    <input type="text" id="contactttfield"/>
+                </div>
+                <div class="registrationflex" id="sexbdaycon">
+                    <p>SEX</p>
+                    <p>BIRTH DATE</p>
+                    <input type="text" id="sextxtfield"/>
+                    <input type="date" id="datefield"/>
+                </div>
+                <div class="registrationflexsingle" id="addresscon">
+                    <p>ADDRESS</p>
+                    <input type="text" id="addresstxtfield"/>
+                </div>
+                <div class="registrationflex" id="brgyidmaritalstatcon">
+                    <p>BRGY ID NUMBER</p>
+                    <p>MARITAL STATUS</p>
+                    <input type="number" id="brgynumfield"/>
+
+                    <select id="maritalstat" name="maritalstatus">
+                        <option value=""> </option>
+                        <option value="Single">Single</option>
+                        <option value="Married">Married</option>
+                        <option value="Divorced">Divorced</option>
+                        <option value="Widowed">Widowed</option>
+                    </select>
+                </div>
+                <div class="registrationflexsingle" id="memberhouseoldcon">
+                    <p>NO. OF MEMBER IN HOUSEHOLD</p>
+                    <input type="number" id="memberhouseholdfield"/>
+                </div>
+                <div id="registrationbuttoncon">
+                    <button id="registrationbutton" onclick="window.location.href='login.html'">NEXT</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
