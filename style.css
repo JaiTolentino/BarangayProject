@@ -208,6 +208,8 @@ button {
 #registrationbuttoncon {
     display: flex;
     justify-content: end;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 .registertxtdetails {
     color: #FBF2CF;
@@ -226,6 +228,9 @@ button {
     .logocon {height: 9vh;}
     #registrationbutton {width: 20vw;}
     .h1con {padding-bottom: 70%;}
+    #checkboxtxt {padding-top: 18px;}
+    #terms {font-size: 14px;}
+    #registrationbutton {width: 15vh;}
 }
 @media screen and(min-width: 480) {
     #termscheck {font-size: 100px;}
@@ -238,10 +243,11 @@ button {
 
 /* Desktop */
 @media screen and (min-width: 992px){
-    #checkboxtxt {font-size: 3vw;}
+    #checkboxtxt {font-size: 1.8vw;}
 }
 
 /* Huge */
 @media screen and (min-width: 1280px) {
-    #checkboxtxt {font-size: 5vw;}
+    #tdptext {font-size: 3vw;}
+    #checkboxtxt {font-size: 1.5vw;}
 }
