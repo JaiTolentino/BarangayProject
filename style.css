@@ -258,16 +258,22 @@ button {
 }
 #forgotinstruct {
     font-size: 2vh;
+    font-family: 'Anek Gujarati';
+    color: #008335;
 }
 #forgotusernamecon {
     margin-left: 10vw;
 }
 #forgotusernamelabel {
     font-weight: bolder;
+    font-family: 'Anek Gujarati';
+    color: #008335;
 }
 #forgotusernamefield {
     height: 4vh;
     width: 30vw;
+    background-color: #00A743;
+    font-family: 'Anek Gujarati';
 }
 #resetbuttoncon {
     padding-top: 5%;
@@ -281,9 +287,15 @@ button {
     background-color: rgba(0, 136, 53);
     color: #FBF2CF;
     border-color: #FBF2CF;
-
 }
-
+.headertext_design {
+    font-weight: bolder;
+    color: #008335;
+    font-family: 'Anek Gujarati';
+}
+#leftarrow {
+    height: 7vh;;
+}
 
 /* Mobile */
 @media screen and (max-width: 480px) {
