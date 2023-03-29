@@ -94,7 +94,7 @@ p {
 .home .headcon {
     display: flex;
     width: 100vw;
-    height: 5em;
+    height: 4.5em;
     background-color: transparent;
 }
 .home .logocon {
@@ -111,7 +111,7 @@ p {
 }
 .home .headcon ul {
     display:flex;
-    margin-top: 1vh;
+    margin-top: 3vh;
     margin-left: 11vw;
 }
 .home .headcon ul li {
@@ -122,11 +122,8 @@ p {
     transition: 0.3s ease-in-out;
 }
 .home .headcon ul li:hover {
-    color: black;
+    color: rgba(251, 242, 207, 1);
 }
-
-
-
 .home .headcon .toptime {
     margin-left: 2vw;
     margin-top: 2vh;
@@ -137,10 +134,26 @@ p {
 }
 .home .headcon .bottomtime {
     margin-left: 2vw;
-    margin-top: 2vh;
+    margin-top: 4vh;
     font-size: 1em;
     letter-spacing: 6px;
     color: white;
+}
+.home .bodycon {
+    margin-right: 1vw;
+    width: 76vw;
+    height: 100vh;
+    background-color: white;
+}
+.home .bodycon .img1 {
+    width:20vw;
+    height:10vh;
+}
+
+.home .sidecon {
+    width: 23vw;
+    height: 100vh;
+    background-color: white;
 }
 
 
