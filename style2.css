@@ -95,22 +95,53 @@ p {
     display: flex;
     width: 100vw;
     height: 5em;
-    background-color: white;
-    
+    background-color: transparent;
+}
+.home .logocon {
+    margin-left:-3vw;
+    margin-top: 3vh;
+    height: 25vh;
+    width: 25vh;
 }
 .home .headcon .brgy {
-    margin-left: 10vw;
-    font-size: ;
+    margin-left: 2vw;
+    margin-top: 2vh;
+    font-size: 2.8em;
     color: rgba(251, 242, 207, 1);
 }
-
-.homelogocon {
-    margin-left: 9vw;
-    margin-top: 10vh;
-    height: 70%;
-    width: 90%;
+.home .headcon ul {
+    display:flex;
+    margin-top: 1vh;
+    margin-left: 11vw;
+}
+.home .headcon ul li {
+    list-style: none;
+    margin-left: 1.5vw;
+    font-size: 1.5em;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+.home .headcon ul li:hover {
+    color: black;
 }
 
+
+
+.home .headcon .toptime {
+    margin-left: 2vw;
+    margin-top: 2vh;
+    font-size: 4.5em;
+    font-weight: bold;
+    -webkit-text-stroke-width: 3px;
+    color: rgba(251, 242, 207, 1);
+}
+.home .headcon .bottomtime {
+    margin-left: 2vw;
+    margin-top: 2vh;
+    font-size: 1em;
+    letter-spacing: 6px;
+    color: white;
+}
 
 
 

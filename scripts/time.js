@@ -22,7 +22,7 @@ function updateClock() {
             return n;
         }
 
-        var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+        var month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
         var day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
         var ids = ["day", "month", "date", "year", "hour", "minute", "second", "period"];
         var values = [day[dy], month[mth], dt.pad(2), yr, hr.pad(2), min.pad(2), sec.pad(2), pd];
