@@ -145,11 +145,31 @@ p {
     height: 100vh;
     background-color: white;
 }
-.home .bodycon .topbody {
+.home .bodycon .topbody{
+    position:relative;
     height: 40vh;
 }
+.home .bodycon .topbody .welcometxt {
+    position:absolute;
+    text-align: center;
+    margin-top: 8vh;
+    margin-left: 16vw;
+    font-size: 4vw;
+    color:rgba(251, 242, 207, 1);
+    text-shadow: 5px 5px 1px rgba(0, 0, 0, 0.611);
+}
 .home .bodycon .bottombody {
+    position:relative;
     height: 40vh;
+}
+.home .bodycon .bottombody .officialtxt {
+    position:absolute;
+    text-align: center;
+    margin-top: 8vh;
+    margin-left: 36vw;
+    font-size: 2.5vw;
+    color:rgba(251, 242, 207, 1);
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.611);
 }
 .home .flex-container .bodycon .img {
     width:76vw;
