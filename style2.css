@@ -145,16 +145,49 @@ p {
     height: 100vh;
     background-color: white;
 }
-.home .bodycon .img1 {
-    width:20vw;
-    height:10vh;
+.home .bodycon .topbody {
+    height: 40vh;
 }
-
+.home .bodycon .bottombody {
+    height: 40vh;
+}
+.home .flex-container .bodycon .img {
+    width:76vw;
+    height:40vh;
+}
 .home .sidecon {
     width: 23vw;
     height: 100vh;
     background-color: white;
 }
+.home .sidecon h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:1vh;
+    margin-left: 1.5vw;
+    font-size: 1.3em;
+    height:5vh;
+    width:20vw;
+    border-radius: 14px;
+    background-color: rgba(0, 136, 25, 1);
+}
+.home .sidecon .contactbox {
+    margin-top: -2vh;
+    margin-left: 1.5vw;
+    height:7vh;
+    width:20vw;
+    border-radius: 14px;
+    background-color: rgba(0, 136, 25, 1);
+}
+.home .sidecon .contactbox h3,
+.home .sidecon .contactbox p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -2vh;
+}
+
 
 
 
