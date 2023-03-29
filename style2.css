@@ -30,29 +30,47 @@ p {
     width: 90vw;
 }
 .interfacecon {
-    padding-left: 40vw;
-    padding-top: 60vh;
+    padding-left: 2vw;
+    padding-top: 2vh;
     margin-top: 10vh;
-    margin-left:8vw;
+    margin-right:9vw;
+    width: 70vw;
     align-items: center;
+    text-align: center;
     justify-content: center;
     background-color: white;
 }
 .flex-container {
     display: flex;
 }
-.loginemailtxt {
-    z-index: 1;
-    margin-right: -90vw;
+.interfacecon .emailtxt {
     padding-top: 10vh;
-    width:40%;
+    width: 40%;
 }
-.loginpasswordtxt {
-    z-index: 2;
+.interfacecon .passwordtxt {
     padding-left: 10vw;
     padding-top: 10vh;
-    width:40%;
+    width: 40%;
 }
+.interfacecon .loginbtn {
+    height: 10em;
+    width: 10em;
+    border-width: 3px;
+    background-color: rgba(0, 136, 53, 0.5);
+    color: white;
+}
+
+.interfacecon .forgotpass {
+    color:blue;
+}
+
+
+.buttons {
+    cursor: pointer;
+}
+
+
+
 
 
 
