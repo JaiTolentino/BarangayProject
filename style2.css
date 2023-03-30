@@ -84,6 +84,159 @@ p {
 
 
 
+
+.main {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 136, 53);
+}
+    .main .headcon {
+        display: flex;
+        width: 100vw;
+        height: 4.5em;
+        background-color: transparent;
+    }
+        .main .headcon .logocon {
+            z-index: 1;
+            margin-left:-3vw;
+            margin-top: 3vh;
+            height: 25vh;
+            width: 25vh;
+        }
+        .main .headcon .brgy {
+            margin-left: 2vw;
+            margin-top: 2vh;
+            font-size: 2.8em;
+            color: rgba(251, 242, 207, 1);
+        }
+        .main .headcon ul {
+            display:flex;
+            margin-top: 3vh;
+            margin-left: 11vw;
+        }
+            .main .headcon ul li {
+                list-style: none;
+                margin-left: 1.5vw;
+                font-size: 1.5em;
+                color: white;
+                transition: 0.3s ease-in-out;
+            }
+                .main .headcon ul li:hover {
+                    text-decoration: underline;
+                    color: rgba(251, 242, 207, 1);
+                }
+        .main .headcon .toptime {
+            margin-left: 2vw;
+            margin-top: 2vh;
+            font-size: 4.5em;
+            font-weight: bold;
+            -webkit-text-stroke-width: 3px;
+            color: rgba(251, 242, 207, 1);
+        }
+        .main .headcon .bottomtime {
+            margin-left: 2vw;
+            margin-top: 4vh;
+            font-size: 1em;
+            letter-spacing: 6px;
+            color: white;
+        }
+    .main .sidecon {
+        width: 23vw;
+        height: 100vh;
+        border-radius: 8px;
+        color: white;
+        background-color: white;
+    }
+        .main .sidecon .contact {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top:3vh;
+            margin-left: 1.5vw;
+            font-size: 1.3em;
+            height:5vh;
+            width:20vw;
+            border-radius: 14px;
+            color: rgba(251, 242, 207, 1);
+            background-color: rgba(0, 136, 25, 1);
+        }
+        .main .sidecon .address {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top:4vh;
+            margin-left: 1.5vw;
+            font-size: 1.3em;
+            height:5vh;
+            width:20vw;
+            border-radius: 14px;
+            color: rgba(251, 242, 207, 1);
+            background-color: rgba(0, 136, 25, 1);
+        }
+        .main .sidecon .motto {
+            text-align: center;
+            margin-top:3.7vh;
+            margin-left: 1vw;
+            margin-right: 1vw;
+            font-size: 1.1em;
+            font-weight: bold;
+            color: rgba(251, 242, 207, 1);
+            color: rgba(0, 136, 25, 1);
+            text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.611);
+        }
+        .main .sidecon .contactbox {
+            margin-top: -2vh;
+            margin-left: 1.5vw;
+            height:7vh;
+            width:20vw;
+            border-radius: 14px;
+            background-color: rgba(0, 136, 25, 1);
+        }
+            .main .sidecon .contactbox h3,
+            .main .sidecon .contactbox p {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: -2vh;
+            }
+            .main .sidecon .contactbox h3 {
+                color: rgba(251, 242, 207, 1);
+            }
+    .main .bodycon {
+        margin-right: 1vw;
+        width: 76vw;
+        height: 100vh;
+        background-color: white;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .home {
     margin: 0;
     height: 100%;
@@ -97,7 +250,7 @@ p {
     height: 4.5em;
     background-color: transparent;
 }
-.home .logocon {
+.home .headcon .logocon {
     z-index: 1;
     margin-left:-3vw;
     margin-top: 3vh;
