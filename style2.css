@@ -98,6 +98,7 @@ p {
     background-color: transparent;
 }
 .home .logocon {
+    z-index: 1;
     margin-left:-3vw;
     margin-top: 3vh;
     height: 25vh;
@@ -122,6 +123,7 @@ p {
     transition: 0.3s ease-in-out;
 }
 .home .headcon ul li:hover {
+    text-decoration: underline;
     color: rgba(251, 242, 207, 1);
 }
 .home .headcon .toptime {
@@ -170,6 +172,26 @@ p {
     font-size: 2.5vw;
     color:rgba(251, 242, 207, 1);
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.611);
+}
+.home .bodycon .bottombody .viewbtn {
+    position:absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 26vh;
+    margin-left: 38.3vw;
+    width: 25vw;
+    height: 8vh;
+    border-radius: 20px;
+    background-color: white;
+    opacity: 0.8;
+    border-color: rgba(0, 136, 25, 1);
+    transition: 0.2s ease-in-out;
+}
+.home .bodycon .bottombody .viewbtn:hover {
+    opacity: 1;
+    background-color: rgba(0, 136, 25, 1);
+    color: white;
 }
 .home .flex-container .bodycon .img {
     width:76vw;
