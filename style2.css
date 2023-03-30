@@ -213,210 +213,59 @@ p {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .home {
-    margin: 0;
-    height: 100%;
-    width: 100%;
     overflow: hidden;
-    background-color: rgba(0, 136, 53);
 }
-.home .headcon {
-    display: flex;
-    width: 100vw;
-    height: 4.5em;
-    background-color: transparent;
-}
-.home .headcon .logocon {
-    z-index: 1;
-    margin-left:-3vw;
-    margin-top: 3vh;
-    height: 25vh;
-    width: 25vh;
-}
-.home .headcon .brgy {
-    margin-left: 2vw;
-    margin-top: 2vh;
-    font-size: 2.8em;
-    color: rgba(251, 242, 207, 1);
-}
-.home .headcon ul {
-    display:flex;
-    margin-top: 3vh;
-    margin-left: 11vw;
-}
-.home .headcon ul li {
-    list-style: none;
-    margin-left: 1.5vw;
-    font-size: 1.5em;
-    color: white;
-    transition: 0.3s ease-in-out;
-}
-.home .headcon ul li:hover {
-    text-decoration: underline;
-    color: rgba(251, 242, 207, 1);
-}
-.home .headcon .toptime {
-    margin-left: 2vw;
-    margin-top: 2vh;
-    font-size: 4.5em;
-    font-weight: bold;
-    -webkit-text-stroke-width: 3px;
-    color: rgba(251, 242, 207, 1);
-}
-.home .headcon .bottomtime {
-    margin-left: 2vw;
-    margin-top: 4vh;
-    font-size: 1em;
-    letter-spacing: 6px;
-    color: white;
-}
-.home .bodycon {
-    margin-right: 1vw;
-    width: 76vw;
-    height: 100vh;
-    background-color: white;
-}
-.home .bodycon .topbody{
-    position:relative;
-    height: 40vh;
-}
-.home .bodycon .topbody .welcometxt {
-    position:absolute;
-    text-align: center;
-    margin-top: 8vh;
-    margin-left: 16vw;
-    font-size: 4vw;
-    color:rgba(251, 242, 207, 1);
-    text-shadow: 5px 5px 1px rgba(0, 0, 0, 0.611);
-}
-.home .bodycon .bottombody {
-    position:relative;
-    height: 40vh;
-}
-.home .bodycon .bottombody .officialtxt {
-    position:absolute;
-    text-align: center;
-    margin-top: 8vh;
-    margin-left: 36vw;
-    font-size: 2.5vw;
-    color:rgba(251, 242, 207, 1);
-    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.611);
-}
-.home .bodycon .bottombody .viewbtn {
-    position:absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 26vh;
-    margin-left: 38.3vw;
-    width: 25vw;
-    height: 8vh;
-    border-radius: 20px;
-    background-color: white;
-    opacity: 0.8;
-    border-color: rgba(0, 136, 25, 1);
-    transition: 0.2s ease-in-out;
-}
-.home .bodycon .bottombody .viewbtn:hover {
-    opacity: 1;
-    background-color: rgba(0, 136, 25, 1);
-    color: white;
-}
-.home .flex-container .bodycon .img {
-    width:76vw;
-    height:40vh;
-}
-.home .sidecon {
-    width: 23vw;
-    height: 100vh;
-    border-radius: 8px;
-    color: white;
-    background-color: white;
-}
-.home .sidecon .contact {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top:3vh;
-    margin-left: 1.5vw;
-    font-size: 1.3em;
-    height:5vh;
-    width:20vw;
-    border-radius: 14px;
-    color: rgba(251, 242, 207, 1);
-    background-color: rgba(0, 136, 25, 1);
-}
-.home .sidecon .address {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top:4vh;
-    margin-left: 1.5vw;
-    font-size: 1.3em;
-    height:5vh;
-    width:20vw;
-    border-radius: 14px;
-    color: rgba(251, 242, 207, 1);
-    background-color: rgba(0, 136, 25, 1);
-}
-.home .sidecon .motto {
-    text-align: center;
-    margin-top:3.7vh;
-    margin-left: 1vw;
-    margin-right: 1vw;
-    font-size: 1.1em;
-    font-weight: bold;
-    color: rgba(251, 242, 207, 1);
-    color: rgba(0, 136, 25, 1);
-    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.611);
-}
-.home .sidecon .contactbox {
-    margin-top: -2vh;
-    margin-left: 1.5vw;
-    height:7vh;
-    width:20vw;
-    border-radius: 14px;
-    background-color: rgba(0, 136, 25, 1);
-}
-.home .sidecon .contactbox h3,
-.home .sidecon .contactbox p {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: -2vh;
-}
-.home .sidecon .contactbox h3 {
-    color: rgba(251, 242, 207, 1);
-}
-
-
-
-
-
+    .home .bodycon .topbody{
+        position:relative;
+        height: 40vh;
+    }
+        .home .bodycon .topbody .welcometxt {
+            position:absolute;
+            text-align: center;
+            margin-top: 8vh;
+            margin-left: 16vw;
+            font-size: 4vw;
+            color:rgba(251, 242, 207, 1);
+            text-shadow: 5px 5px 1px rgba(0, 0, 0, 0.611);
+        }
+    .home .bodycon .bottombody {
+        position:relative;
+        height: 40vh;
+    }
+        .home .bodycon .bottombody .officialtxt {
+            position:absolute;
+            text-align: center;
+            margin-top: 8vh;
+            margin-left: 36vw;
+            font-size: 2.5vw;
+            color:rgba(251, 242, 207, 1);
+            text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.611);
+        }
+        .home .bodycon .bottombody .viewbtn {
+            position:absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 26vh;
+            margin-left: 38.3vw;
+            width: 25vw;
+            height: 8vh;
+            border-radius: 20px;
+            background-color: white;
+            opacity: 0.8;
+            border-color: rgba(0, 136, 25, 1);
+            transition: 0.2s ease-in-out;
+        }
+            .home .bodycon .bottombody .viewbtn:hover {
+                opacity: 1;
+                background-color: rgba(0, 136, 25, 1);
+                color: white;
+            }
+    .home .bodycon .img {
+        width:76vw;
+        height:40vh;
+    }
 
 
 
