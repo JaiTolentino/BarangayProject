@@ -275,16 +275,16 @@ p {
     overflow-y: scroll;
     min-height: fit-content;
 }
-.cert .bodycon {
-    margin-right: 2vw;
-    width: 76vw;
-    height:100vh;
-    background-color: white;
-    /* background-image: url(BRGY\ LOGO.png);
-    background-repeat: no-repeat;
-    background-size: 38vw;
-    background-position: 20vw -.2vh; */
-}
+    .cert .bodycon {
+        margin-right: 2vw;
+        width: 76vw;
+        height:100vh;
+        background-color: white;
+        /* background-image: url(BRGY\ LOGO.png);
+        background-repeat: no-repeat;
+        background-size: 38vw;
+        background-position: 20vw -.2vh; */
+    }
         .cert .bodycon .header {
             display: flex;
             align-items: center;
@@ -293,63 +293,175 @@ p {
             color: rgba(251, 242, 207, 1);
             border-bottom: 0.3vw solid rgba(0, 136, 25, 1);
         }
-        .cert .bodycon .header .headtxt{
-            margin-right: 3vw;
-            font-size: 4em;
-            font-weight: bold;
-            color: rgba(251, 242, 207, 1);
-            text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.611);
+            .cert .bodycon .header .headtxt{
+                margin-right: 3vw;
+                font-size: 4em;
+                font-weight: bold;
+                color: rgba(251, 242, 207, 1);
+                text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.611);
+            }
+    .cert .bodycon .content {
+        display: flex;
+        align-items: center;
+        margin-left: 2vw;
+        width: 72vw;
+        height: 35vh;
+        background-color: rgba(0, 136, 25, 0.466);
+    }
+        .cert .bodycon .content:hover {
+            transition: 0.5s;
+            background-color: rgba(0, 136, 25, 1);
         }
-.cert .bodycon .content {
-    display: flex;
-    align-items: center;
-    margin-left: 2vw;
-    width: 72vw;
-    height: 35vh;
-    background-color: rgba(0, 136, 25, 0.466);
-}
-.cert .bodycon .content:hover {
-    transition: 0.5s;
-    background-color: rgba(0, 136, 25, 1);
-}
-.cert .bodycon .content .img {
-    margin-left: 2vw;
-    height: 30vh;
-    width: 15vw;
-}
-.cert .bodycon .content .txt {
-    margin-left: 1vw;
-    padding: 1vw;
-    height: 26vh;
-    width: 45vw;
-    border-radius: 50px;
-    border: 0.1vw solid black;
-    background-color: white;
-}
-.cert .bodycon .content .btn {
-    margin-left: .9vw;
-    height: 10vh;
-    width: 5vw;
-    border-radius: 100px;
-    border: 0.1vw solid black;
-    color: white;
-    background-color: rgba(0, 136, 25, 1);
-}
-.cert .bodycon .content .btn:hover  {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    width: 30%;
-    border-radius: 0px;
-    border-color: rgba(0, 136, 25, 1);
-    color: rgba(0, 136, 25, 1);
-    background-color: white;
-    transition: 0.2s ease-in-out;
-}
+        .cert .bodycon .content .img {
+            margin-left: 2vw;
+            height: 30vh;
+            width: 15vw;
+        }
+        .cert .bodycon .content .txt {
+            margin-left: 1vw;
+            padding: 1vw;
+            height: 26vh;
+            width: 45vw;
+            border-radius: 50px;
+            border: 0.1vw solid black;
+            background-color: white;
+        }
+        .cert .bodycon .content .btn {
+            margin-left: .9vw;
+            height: 10vh;
+            width: 5vw;
+            border-radius: 100px;
+            border: 0.1vw solid black;
+            color: white;
+            background-color: rgba(0, 136, 25, 1);
+        }
+            .cert .bodycon .content .btn:hover  {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100%;
+                width: 30%;
+                border-radius: 0px;
+                border-color: rgba(0, 136, 25, 1);
+                color: rgba(0, 136, 25, 1);
+                background-color: white;
+                transition: 0.2s ease-in-out;
+            }
 
 
 
+.announce {
+    min-height: fit-content;
+}
+    .announce .bodycon {
+        margin-right: 1vw;
+        overflow: auto;
+        width: 76vw;
+        height:100vh;
+        background-color: white;
+        /* background-image: url(BRGY\ LOGO.png);
+        background-repeat: no-repeat;
+        background-size: 38vw;
+        background-position: 20vw -.2vh; */
+    }
+        .announce .bodycon .header {
+            display: flex;
+            align-items: center;
+            justify-content: right;
+            height: 10vh;
+            color: rgba(251, 242, 207, 1);
+            border-bottom: 0.3vw solid rgba(0, 136, 25, 1);
+        }
+            .announce .bodycon .header .headtxt{
+                margin-right: 3vw;
+                font-size: 4em;
+                font-weight: bold;
+                color: rgba(251, 242, 207, 1);
+                text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.611);
+            }
+        .announce .bodycon .posts {
+            display: flex;
+            height: 100%;
+        }
+            .announce .bodycon .posts .crosswise {
+                height: fit-content;
+                width: 55vw;
+            }
+                .announce .bodycon .posts .crosswise .crosscont {
+                    position: relative;
+                    display: flex;
+                    margin-left: 1.9vw;
+                    margin-top: 5vh;
+                    height: 40vh;
+                    width: 50vw;
+                    border-radius: 8px;
+                    border: 3px solid rgba(0, 136, 25, 1);
+                    background-color: rgba(0, 136, 25, 0.466);
+                }
+                    .announce .bodycon .posts .crosswise .crosscont h3{
+                        position: absolute;
+                        margin-top: 2vh;
+                        margin-left: 2vh;
+                        font-weight: bold;
+                        font-size: 2vw;
+                        color: rgba(251, 242, 207, 1);
+                    }
+                    .announce .bodycon .posts .crosswise .crosscont .img{
+                        margin-top: 8vh;
+                        margin-left: 2vh;
+                        height: 30vh;
+                        width: 15vw;
+                    }
+                    .announce .bodycon .posts .crosswise .crosscont .txt{
+                        margin-left: 1.5vw;
+                        margin-top: 8vh;
+                        padding-left: 0.5vw;
+                        padding-right: 0.5vw;
+                        height: 30vh;
+                        width: 30vw;
+                        font-size: 1vw;
+                        border-radius: 10px;
+                        background-color: white;
+                    }
+                        .announce .bodycon .posts .crosswise .crosscont .txt span{
+                            color: blue;
+                        }
+                        .announce .bodycon .posts .crosswise .crosscont .txt span:hover{
+                            cursor: pointer;
+                        }
+            .announce .bodycon .posts .lengthwise {
+                position:relative;
+                height: fit-content;
+                width: 21vw;
+            }
+                .announce .bodycon .posts .lengthwise .lengthcont {
+                    margin-left: 2vw;
+                    margin-top: 5vh;
+                    padding-left: 1vw;
+                    padding-right: 1vw;
+                    height: 85vh;
+                    width: 15vw;
+                    border-radius: 8px;
+                    border: 3px solid rgba(0, 136, 25, 1);
+                    background-color: rgba(0, 136, 25, 0.466);
+                }
+                    .announce .bodycon .posts .lengthwise .lengthcont h3 {
+                        margin-top: 1vh;
+                        margin-left: 1vh;
+                        font-weight: bold;
+                        font-size: 2vw;
+                        color: rgba(251, 242, 207, 1);
+                    }
+                    .announce .bodycon .posts .lengthwise .lengthcont .img{
+                        margin-top: 1vh;
+                        margin-left: 0.2vh;
+                        margin-bottom: 7vh;
+                        height: 30vh;
+                        width: 15vw;
+                    }
+            .announce .bodycon .footer {
+                height: 30vh;
+            }
 
 
 
