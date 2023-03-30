@@ -90,6 +90,7 @@ p {
     height: 100%;
     width: 100%;
     overflow: hidden;
+    position: fixed;
     background-color: rgba(0, 136, 53);
 }
     .main .headcon {
@@ -204,68 +205,151 @@ p {
             .main .sidecon .contactbox h3 {
                 color: rgba(251, 242, 207, 1);
             }
-    .main .bodycon {
-        margin-right: 1vw;
-        width: 76vw;
-        height: 100vh;
-        background-color: white;
-    }
+    
 
 
 
 .home {
     overflow: hidden;
 }
-    .home .bodycon .topbody{
-        position:relative;
-        height: 40vh;
+    .home .bodycon {
+        margin-right: 1vw;
+        width: 76vw;
+        height: 100vh;
+        background-color: white;
     }
-        .home .bodycon .topbody .welcometxt {
-            position:absolute;
-            text-align: center;
-            margin-top: 8vh;
-            margin-left: 16vw;
-            font-size: 4vw;
-            color:rgba(251, 242, 207, 1);
-            text-shadow: 5px 5px 1px rgba(0, 0, 0, 0.611);
+        .home .bodycon .topbody{
+            position:relative;
+            height: 40vh;
         }
-    .home .bodycon .bottombody {
-        position:relative;
-        height: 40vh;
-    }
-        .home .bodycon .bottombody .officialtxt {
-            position:absolute;
-            text-align: center;
-            margin-top: 8vh;
-            margin-left: 36vw;
-            font-size: 2.5vw;
-            color:rgba(251, 242, 207, 1);
-            text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.611);
+            .home .bodycon .topbody .welcometxt {
+                position:absolute;
+                text-align: center;
+                margin-top: 8vh;
+                margin-left: 16vw;
+                font-size: 4vw;
+                color:rgba(251, 242, 207, 1);
+                text-shadow: 5px 5px 1px rgba(0, 0, 0, 0.611);
+            }
+        .home .bodycon .bottombody {
+            position:relative;
+            height: 40vh;
         }
-        .home .bodycon .bottombody .viewbtn {
-            position:absolute;
+            .home .bodycon .bottombody .officialtxt {
+                position:absolute;
+                text-align: center;
+                margin-top: 8vh;
+                margin-left: 36vw;
+                font-size: 2.5vw;
+                color:rgba(251, 242, 207, 1);
+                text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.611);
+            }
+            .home .bodycon .bottombody .viewbtn {
+                position:absolute;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 26vh;
+                margin-left: 38.3vw;
+                width: 25vw;
+                height: 8vh;
+                border-radius: 20px;
+                background-color: white;
+                opacity: 0.8;
+                border-color: rgba(0, 136, 25, 1);
+                transition: 0.2s ease-in-out;
+            }
+                .home .bodycon .bottombody .viewbtn:hover {
+                    opacity: 1;
+                    background-color: rgba(0, 136, 25, 1);
+                    color: white;
+                }
+        .home .bodycon .img {
+            width:76vw;
+            height:40vh;
+        }
+
+
+
+.cert {
+    overflow-y: scroll;
+    min-height: fit-content;
+}
+.cert .bodycon {
+    margin-right: 2vw;
+    width: 76vw;
+    height:100vh;
+    background-color: white;
+    /* background-image: url(BRGY\ LOGO.png);
+    background-repeat: no-repeat;
+    background-size: 38vw;
+    background-position: 20vw -.2vh; */
+}
+        .cert .bodycon .header {
             display: flex;
             align-items: center;
-            justify-content: center;
-            margin-top: 26vh;
-            margin-left: 38.3vw;
-            width: 25vw;
-            height: 8vh;
-            border-radius: 20px;
-            background-color: white;
-            opacity: 0.8;
-            border-color: rgba(0, 136, 25, 1);
-            transition: 0.2s ease-in-out;
+            justify-content: right;
+            height: 10vh;
+            color: rgba(251, 242, 207, 1);
+            border-bottom: 0.3vw solid rgba(0, 136, 25, 1);
         }
-            .home .bodycon .bottombody .viewbtn:hover {
-                opacity: 1;
-                background-color: rgba(0, 136, 25, 1);
-                color: white;
-            }
-    .home .bodycon .img {
-        width:76vw;
-        height:40vh;
-    }
+        .cert .bodycon .header .headtxt{
+            margin-right: 3vw;
+            font-size: 4em;
+            font-weight: bold;
+            color: rgba(251, 242, 207, 1);
+            text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.611);
+        }
+.cert .bodycon .content {
+    display: flex;
+    align-items: center;
+    margin-left: 2vw;
+    width: 72vw;
+    height: 35vh;
+    background-color: rgba(0, 136, 25, 0.466);
+}
+.cert .bodycon .content:hover {
+    transition: 0.5s;
+    background-color: rgba(0, 136, 25, 1);
+}
+.cert .bodycon .content .img {
+    margin-left: 2vw;
+    height: 30vh;
+    width: 15vw;
+}
+.cert .bodycon .content .txt {
+    margin-left: 1vw;
+    padding: 1vw;
+    height: 26vh;
+    width: 45vw;
+    border-radius: 50px;
+    border: 0.1vw solid black;
+    background-color: white;
+}
+.cert .bodycon .content .btn {
+    margin-left: .9vw;
+    height: 10vh;
+    width: 5vw;
+    border-radius: 100px;
+    border: 0.1vw solid black;
+    color: white;
+    background-color: rgba(0, 136, 25, 1);
+}
+.cert .bodycon .content .btn:hover  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 30%;
+    border-radius: 0px;
+    border-color: rgba(0, 136, 25, 1);
+    color: rgba(0, 136, 25, 1);
+    background-color: white;
+    transition: 0.2s ease-in-out;
+}
+
+
+
 
 
 
