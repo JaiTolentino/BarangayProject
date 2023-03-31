@@ -103,13 +103,13 @@ h1, h2, h3, p {
     }
         .main .headcon .logocon {
             z-index: 1;
-            margin-left:-3vw;
+            margin-left: 1vw;
             margin-top: 3vh;
             height: 25vh;
             width: 25vh;
         }
         .main .headcon .brgy {
-            margin-left: 2vw;
+            margin-left: 4vw;
             margin-top: 2vh;
             font-size: 2.8em;
             color: rgba(251, 242, 207, 1);
@@ -140,7 +140,7 @@ h1, h2, h3, p {
             color: rgba(251, 242, 207, 1);
         }
         .main .headcon .bottomtime {
-            margin-left: 2vw;
+            margin-left: 4vw;
             margin-top: 4vh;
             font-size: 1em;
             letter-spacing: 6px;
@@ -504,6 +504,147 @@ h1, h2, h3, p {
             display: flex;
             height: 100%;
         }
-        .persinfo .bodycon .footer {
-            height: 20vh;
-        }
+            .persinfo .bodycon .faminfo .member {
+                height: fit-content;
+                width: 25vw;
+                /* background-color: blue; */
+            }
+                .persinfo .bodycon .faminfo .member .container {
+                    background-color:transparent;
+                }
+                .persinfo .bodycon .faminfo .member .container:hover {
+                    background-color: rgba(0, 136, 25, 1);
+                    color: white;
+                }
+                .persinfo .bodycon .faminfo .member .membercont1 {
+                    margin-left: 1vw;
+                    margin-top: 4vh;
+                    height: fit-content;
+                    width: 22.5vw;
+                    border-radius: 8px;
+                    border: 3px solid rgba(0, 136, 25, 1);
+                }
+                        .persinfo .bodycon .faminfo .member .membercont1:hover > .img {
+                            transition: 0.3s;
+                            margin-top: 4vh;
+                            margin-left: 1.6vh;
+                            height: 42vh;
+                            width: 21vw;
+                        }
+                    .persinfo .bodycon .faminfo .member .membercont1 .img {
+                        margin-top: 4vh;
+                        margin-left: 4.5vh;
+                        height: 36vh;
+                        width: 18vw;
+                    }
+                    .persinfo .bodycon .faminfo .member .membercont1 h2 {
+                        display: flex;
+                        justify-content: center;
+                        color: rgba(0, 136, 25, 1);
+                    }
+                /* .persinfo .bodycon .faminfo .member .membercont2 {
+                    margin-top: 0.5vh;
+                    margin-left: 1vw;
+                    height: fit-content;
+                    width: 22.5vw;
+                    border-radius: 8px;
+                    border: 3px solid rgba(0, 136, 25, 1);
+                } */
+                    .persinfo .bodycon .faminfo .member .membercont1 .infocon1 {
+                        position: relative;
+                        display: flex;
+                        justify-content: right;
+                        padding-bottom: 2.7vh;
+                        height: 8vh;
+                        width: 100%;
+                        border-top: 2px solid rgba(0, 136, 25, 1);
+                        border-bottom: 2px solid rgba(0, 136, 25, 1);
+                    }
+                    .persinfo .bodycon .faminfo .member .membercont1 .infocon2 {
+                        position: relative;
+                        display: flex;
+                        justify-content: right;
+                        padding-bottom: 2.7vh;
+                        height: 8vh;
+                        width: 100%;
+                        border-bottom: 2px solid rgba(0, 136, 25, 1);
+                    }
+                        .persinfo .bodycon .faminfo .member .membercont1 .label{
+                            justify-content: left;
+                        }
+                            .persinfo .bodycon .faminfo .member .membercont1 .label .img {
+                                position: absolute;
+                                margin-top: 1vh;
+                                margin-left: -21.5vw;
+                                height: 8vh;
+                                width: 4vw;
+                            }
+                            .persinfo .bodycon .faminfo .member .membercont1 .label .txt {
+                                position: absolute;
+                                margin-top: 3.5vh;
+                                margin-left: -16vw;
+                                font-size: 1.2vw;
+                                border: none;
+                                color: rgba(0, 136, 25, 1);
+                            }
+                            .persinfo .bodycon .faminfo .member .membercont1 .label .address {
+                                position: absolute;
+                                margin-top: 0.5vh;
+                                margin-left: -16vw;
+                                font-size: 1.2vw;
+                                border: none;
+                                color: rgba(0, 136, 25, 1);
+                            }
+                        .persinfo .bodycon .faminfo .member .membercont1 .info {
+                            position: absolute;
+                            margin-top: 3.5vh;
+                            margin-right: 1vw;
+                            font-size: 1.2vw;
+                            border: none;
+                            color: rgba(0, 136, 25, 1);
+                        }
+            .persinfo .bodycon .faminfo .othermembers {
+                height: fit-content;
+                width: 50vw;
+                /* background-color: red; */
+            }
+                .persinfo .bodycon .faminfo .othermembers .membercont{
+                    margin-left: 1.5vw;
+                    margin-top: 4vh;
+                    height: 40vh;
+                    width: 22.5vw;
+                    border-radius: 8px;
+                    border: 3px solid rgba(0, 136, 25, 0.466)
+                }
+                    .persinfo .bodycon .faminfo .othermembers .membercont:hover {
+                        transition: 0.3s;
+                        cursor: pointer;
+                        border-color: rgba(0, 136, 25, 1);
+                        background-color: rgba(0, 136, 25, 1);
+                    }
+                        .persinfo .bodycon .faminfo .othermembers .membercont:hover > h2 {
+                            transition: 0.3s;
+                            margin-top: 0.5vh;
+                            color: white;
+                        }
+                        .persinfo .bodycon .faminfo .othermembers .membercont:hover > .img {
+                            transition: 0.3s;
+                            margin-top: 1vh;
+                            margin-left: 3.5vw;
+                            height: 32vh;
+                            width: 16vw;
+                        }
+                    .persinfo .bodycon .faminfo .othermembers .membercont .img{
+                        margin-top: 4vh;
+                        margin-left: 5.5vw;
+                        height: 24vh;
+                        width: 12vw;
+                    }
+                    .persinfo .bodycon .faminfo .othermembers .membercont h2{
+                        display: flex;
+                        justify-content: center;
+                        color: rgba(0, 136, 25, 1);
+                    }
+            .persinfo .bodycon .faminfo .footer {
+                height: 25vh;
+            }
