@@ -120,6 +120,7 @@ h1, h2, h3, p {
             margin-left: 11vw;
         }
             .main .headcon ul li {
+                cursor: pointer;
                 list-style: none;
                 margin-left: 1.5vw;
                 font-size: 1.5em;
@@ -467,3 +468,42 @@ h1, h2, h3, p {
             .announce .bodycon .posts .footer {
                 height: 30vh;
             }
+
+
+
+.persinfo {
+    min-height: fit-content;
+}
+    .persinfo .bodycon {
+        margin-right: 1vw;
+        overflow: auto;
+        width: 76vw;
+        height:100vh;
+        background-color: white;
+        /* background-image: url(BRGY\ LOGO.png);
+        background-repeat: no-repeat;
+        background-size: 38vw;
+        background-position: 20vw -.2vh; */
+    }
+        .persinfo .bodycon .header {
+            display: flex;
+            align-items: center;
+            justify-content: right;
+            height: 10vh;
+            color: rgba(251, 242, 207, 1);
+            border-bottom: 0.3vw solid rgba(0, 136, 25, 1);
+        }
+            .persinfo .bodycon .header .headtxt{
+                margin-right: 3vw;
+                font-size: 4em;
+                font-weight: bold;
+                color: rgba(251, 242, 207, 1);
+                text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.611);
+            }
+        .persinfo .bodycon .faminfo {
+            display: flex;
+            height: 100%;
+        }
+        .persinfo .bodycon .footer {
+            height: 20vh;
+        }
