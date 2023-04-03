@@ -226,10 +226,111 @@ h1, h2, h3, p {
         cursor: pointer;
         margin-top: 3vh;
         margin-left: 2vh;
-        font-size: 1em;
-        width: 8vw;
+        font-size: 1.1em;
+        width: 9vw;
         color: rgba(0, 136, 25, 1);
     }
+
+
+
+.changepass {
+    position: relative;
+    margin-top: -8vh;
+    height: 75vh;
+    width: 50vw;
+    background-color: white;
+}
+    .changepass .img {
+        margin-top: 2vh;
+        margin-left: 20vw;
+        height: 24vh;
+        width: 12vw;
+    }
+    .changepass .title {
+        margin-top: 3vh;
+        margin-left: 8vw;
+        font-size: 1.6em;
+        color: rgba(0, 136, 25, 1);
+    }
+    .changepass .title2 {
+        margin-top: -1vh;
+        margin-left: 6vw;
+        font-size: 1.3em;
+        color: rgba(0, 136, 25, 1);
+    }
+    .changepass .info {
+        margin-top: -3vh;
+        margin-left: 6vw;
+        font-size: 1em;
+        color: rgba(0, 136, 25, 1);
+    }
+
+
+
+    .changepass .input {
+        display: flex;
+        margin-top: 0vh;
+    }
+        .changepass .input input[type = password] {
+            height: 5.5vh;
+            width: 23vw;
+            padding: 3vh;
+            margin-left: 6vw;
+            border: 3px solid #f2f2f2;
+            border-radius: 14px;
+            font-size: 1.2em;
+            background-color: #f2f2f2;
+        }
+            .changepass .input input[type = password]:hover {
+                transition: 0.2s;
+                border: 3px solid rgba(0, 136, 25, 1);
+            }
+        .changepass .input .code {
+            margin-left: 1vw;
+            font-size: 1.3em;
+            color: rgba(0, 136, 25, 1);
+        }
+            .changepass .input .code .label {
+                margin-top: 0vh;
+            }
+            .changepass .input .code .num {
+                margin-top: -3.5vh;
+            }
+    .changepass .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0vh;
+    }
+        .changepass .buttons .cancel {
+            cursor: pointer;
+            height: 8vh;
+            width: 15vw;
+            font-size: 1.2em;
+            border-radius: 50px;
+            color: white;
+            background-color: rgba(0, 136, 25, 1);
+            }
+            .changepass .buttons .cancel:hover {
+                transition: 0.2s;
+                margin-left: -1vw;
+                width: 20vw;
+            }
+        .changepass .buttons .continue {
+            cursor: pointer;
+            margin-left: 2vw;
+            height: 8vh;
+            width: 15vw;
+            font-size: 1.2em;
+            border-radius: 50px;
+            color: white;
+            background-color: rgba(0, 136, 25, 1);
+            }
+            .changepass .buttons .continue:hover {
+                transition: 0.2s;
+                margin-left: 1vw;
+                width: 20vw;
+            }
 
 
 
