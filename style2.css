@@ -516,7 +516,7 @@ h1, h2, h3, p {
                     background-color: rgba(0, 136, 25, 1);
                     color: white;
                 }
-                .persinfo .bodycon .faminfo .member .membercont1 {
+                .persinfo .bodycon .faminfo .member .membercont {
                     margin-left: 1vw;
                     margin-top: 4vh;
                     height: fit-content;
@@ -524,33 +524,25 @@ h1, h2, h3, p {
                     border-radius: 8px;
                     border: 3px solid rgba(0, 136, 25, 1);
                 }
-                        .persinfo .bodycon .faminfo .member .membercont1:hover > .img {
+                        .persinfo .bodycon .faminfo .member .membercont:hover > .img {
                             transition: 0.3s;
                             margin-top: 4vh;
                             margin-left: 1.6vh;
                             height: 42vh;
                             width: 21vw;
                         }
-                    .persinfo .bodycon .faminfo .member .membercont1 .img {
+                    .persinfo .bodycon .faminfo .member .membercont .img {
                         margin-top: 4vh;
                         margin-left: 4.5vh;
                         height: 36vh;
                         width: 18vw;
                     }
-                    .persinfo .bodycon .faminfo .member .membercont1 h2 {
+                    .persinfo .bodycon .faminfo .member .membercont h2 {
                         display: flex;
                         justify-content: center;
                         color: rgba(0, 136, 25, 1);
-                    }
-                /* .persinfo .bodycon .faminfo .member .membercont2 {
-                    margin-top: 0.5vh;
-                    margin-left: 1vw;
-                    height: fit-content;
-                    width: 22.5vw;
-                    border-radius: 8px;
-                    border: 3px solid rgba(0, 136, 25, 1);
-                } */
-                    .persinfo .bodycon .faminfo .member .membercont1 .infocon1 {
+                }
+                    .persinfo .bodycon .faminfo .member .membercont .infocon1 {
                         position: relative;
                         display: flex;
                         justify-content: right;
@@ -560,7 +552,7 @@ h1, h2, h3, p {
                         border-top: 2px solid rgba(0, 136, 25, 1);
                         border-bottom: 2px solid rgba(0, 136, 25, 1);
                     }
-                    .persinfo .bodycon .faminfo .member .membercont1 .infocon2 {
+                    .persinfo .bodycon .faminfo .member .membercont .infocon2 {
                         position: relative;
                         display: flex;
                         justify-content: right;
@@ -569,17 +561,17 @@ h1, h2, h3, p {
                         width: 100%;
                         border-bottom: 2px solid rgba(0, 136, 25, 1);
                     }
-                        .persinfo .bodycon .faminfo .member .membercont1 .label{
+                        .persinfo .bodycon .faminfo .member .membercont .label{
                             justify-content: left;
                         }
-                            .persinfo .bodycon .faminfo .member .membercont1 .label .img {
+                            .persinfo .bodycon .faminfo .member .membercont .label .img {
                                 position: absolute;
                                 margin-top: 1vh;
                                 margin-left: -21.5vw;
                                 height: 8vh;
                                 width: 4vw;
                             }
-                            .persinfo .bodycon .faminfo .member .membercont1 .label .txt {
+                            .persinfo .bodycon .faminfo .member .membercont .label .txt {
                                 position: absolute;
                                 margin-top: 3.5vh;
                                 margin-left: -16vw;
@@ -587,7 +579,7 @@ h1, h2, h3, p {
                                 border: none;
                                 color: rgba(0, 136, 25, 1);
                             }
-                            .persinfo .bodycon .faminfo .member .membercont1 .label .address {
+                            .persinfo .bodycon .faminfo .member .membercont .label .address {
                                 position: absolute;
                                 margin-top: 0.5vh;
                                 margin-left: -16vw;
@@ -595,7 +587,7 @@ h1, h2, h3, p {
                                 border: none;
                                 color: rgba(0, 136, 25, 1);
                             }
-                        .persinfo .bodycon .faminfo .member .membercont1 .info {
+                        .persinfo .bodycon .faminfo .member .membercont .info {
                             position: absolute;
                             margin-top: 3.5vh;
                             margin-right: 1vw;
