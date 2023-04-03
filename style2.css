@@ -14,19 +14,19 @@ h1, h2, h3, p {
 
 
 
-.forgotpass {
+.password {
     margin: 0;
     height: 100%;
     width: 100%;
     overflow: hidden;
-    background-image: url("backgroud.png");
+    background-image: url("images/backgroud1.png");
 }
-    .forgotpass .headcon {
+    .password .headcon {
         height: 8vh;
         width: 100vw;
         background-color: rgba(0, 136, 53);
     }
-    .forgotpass .bodycon {
+    .password .bodycon {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -35,85 +35,205 @@ h1, h2, h3, p {
         width: 70vw;
         background-color: rgba(0, 136, 52, 0.403);
     }
-        .forgotpass .bodycon .whitecon {
-            position: relative;
-            margin-top: -8vh;
-            height: 75vh;
-            width: 50vw;
-            background-color: white;
+
+
+
+.forgotpass {
+    position: relative;
+    margin-top: -8vh;
+    height: 75vh;
+    width: 50vw;
+    background-color: white;
+}
+    .forgotpass .img {
+        margin-top: 2vh;
+        margin-left: 20vw;
+        height: 24vh;
+        width: 12vw;
+    }
+    .forgotpass .title {
+        margin-top: 3vh;
+        margin-left: 8vw;
+        font-size: 1.6em;
+        color: rgba(0, 136, 25, 1);
+    }
+    .forgotpass .info {
+        margin-top: 0vh;
+        margin-left: 6vw;
+        font-size: 1em;
+        color: rgba(0, 136, 25, 1);
+    }
+    .forgotpass .input {
+        display: flex;
+    }
+        .forgotpass .input .label {
+            margin-left: 6vw;
+            font-size: 1.3em;
+            color: rgba(0, 136, 25, 1);;
         }
-            .forgotpass .bodycon .whitecon .img {
-                margin-top: 2vh;
-                margin-left: 20vw;
-                height: 24vh;
-                width: 12vw;
+        .forgotpass .input input[type = number] {
+            width: 28vw;
+            padding: 3vh;
+            margin-left: 1vw;
+            border: 3px solid #f2f2f2;
+            border-radius: 14px;
+            font-size: 1.2em;
+            background-color: #f2f2f2;
+        }
+            .forgotpass .input input::-webkit-outer-spin-button,
+            .forgotpass .input input::-webkit-inner-spin-button {
+                -webkit-appearance: none;
             }
-            .forgotpass .bodycon .whitecon .title {
-                margin-top: 3vh;
-                margin-left: 8vw;
-                font-size: 1.6em;
-                color: rgba(0, 136, 25, 1);
+            .forgotpass .input input[type = number]:hover {
+                transition: 0.2s;
+                border: 3px solid rgba(0, 136, 25, 1);
             }
-            .forgotpass .bodycon .whitecon .info {
+    .forgotpass .btn {
+        cursor: pointer;
+        margin-top: 3vh;
+        margin-left: 18vw;
+        height: 8vh;
+        width: 15vw;
+        font-size: 1.2em;
+        border-radius: 50px;
+        color: white;
+        background-color: rgba(0, 136, 25, 1);
+        }
+        .forgotpass .btn:hover {
+            transition: 0.2s;
+            margin-left: 17vw;
+            height: 10vh;
+            width: 17vw;
+        }
+    .forgotpass .return {
+        position: absolute;
+        cursor: pointer;
+        margin-top: 10vh;
+        margin-left: 1vw;
+        height: 8vh;
+        width: 4vw;
+        }
+        .forgotpass .return:hover {
+            transition: 0.2s;
+            margin-top: 8vh;
+            margin-left: 1vw;
+            height: 10vh;
+            width: 5vw;
+        }
+
+
+
+.security {
+    position: relative;
+    margin-top: -8vh;
+    height: 75vh;
+    width: 50vw;
+    background-color: white;
+}
+    .security .img {
+        margin-top: 2vh;
+        margin-left: 20vw;
+        height: 24vh;
+        width: 12vw;
+    }
+    .security .title {
+        margin-top: 3vh;
+        margin-left: 8vw;
+        font-size: 1.6em;
+        color: rgba(0, 136, 25, 1);
+    }
+    .security .title2 {
+        margin-top: -1vh;
+        margin-left: 6vw;
+        font-size: 1.3em;
+        color: rgba(0, 136, 25, 1);
+    }
+    .security .info {
+        margin-top: -3vh;
+        margin-left: 6vw;
+        font-size: 1em;
+        color: rgba(0, 136, 25, 1);
+    }
+    .security .input {
+        display: flex;
+        margin-top: -1vh;
+    }
+        .security .input input[type = number] {
+            height: 3vh;
+            width: 23vw;
+            padding: 3vh;
+            margin-left: 6vw;
+            border: 3px solid #f2f2f2;
+            border-radius: 14px;
+            font-size: 1.2em;
+            background-color: #f2f2f2;
+        }
+            .security .input input::-webkit-outer-spin-button,
+            .security .input input::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+            }
+            .security .input input[type = number]:hover {
+                transition: 0.2s;
+                border: 3px solid rgba(0, 136, 25, 1);
+            }
+        .security .input .code {
+            margin-left: 1vw;
+            font-size: 1.3em;
+            color: rgba(0, 136, 25, 1);
+        }
+            .security .input .code .label {
                 margin-top: 0vh;
-                margin-left: 6vw;
-                font-size: 1em;
-                color: rgba(0, 136, 25, 1);
             }
-            .forgotpass .bodycon .whitecon .input {
-                display: flex;
+            .security .input .code .num {
+                margin-top: -2vh;
             }
-                .forgotpass .bodycon .whitecon .input .label {
-                    margin-left: 6vw;
-                    font-size: 1.3em;
-                    color: rgba(0, 136, 25, 1);;
-                }
-                .forgotpass .bodycon .whitecon .input input[type = number] {
-                    width: 28vw;
-                    padding: 3vh;
-                    margin-left: 1vw;
-                    border: 3px solid #f2f2f2;
-                    border-radius: 14px;
-                    background-color: #f2f2f2;
-                }
-                    .forgotpass .bodycon .whitecon .input input::-webkit-outer-spin-button,
-                    .forgotpass .bodycon .whitecon .input input::-webkit-inner-spin-button {
-                        -webkit-appearance: none;
-                    }
-                    .forgotpass .bodycon .whitecon .input input[type = number]:hover {
-                        transition: 0.2s;
-                        border: 3px solid rgba(0, 136, 25, 1);
-                    }
-            .forgotpass .bodycon .whitecon .btn {
-                cursor: pointer;
-                margin-top: 3vh;
-                margin-left: 18vw;
-                height: 8vh;
-                width: 15vw;
-                font-size: 1.2em;
-                border-radius: 50px;
-                color: white;
-                background-color: rgba(0, 136, 25, 1);
-                }.forgotpass .bodycon .whitecon .btn:hover {
-                    transition: 0.2s;
-                    margin-left: 17vw;
-                    height: 10vh;
-                    width: 17vw;
-                }
-            .forgotpass .bodycon .whitecon .return {
-                position: absolute;
-                cursor: pointer;
-                margin-top: 10vh;
+    .security .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0vh;
+    }
+        .security .buttons .cancel {
+            cursor: pointer;
+            height: 8vh;
+            width: 15vw;
+            font-size: 1.2em;
+            border-radius: 50px;
+            color: white;
+            background-color: rgba(0, 136, 25, 1);
+            }
+            .security .buttons .cancel:hover {
+                transition: 0.2s;
+                margin-left: -1vw;
+                width: 20vw;
+            }
+        .security .buttons .continue {
+            cursor: pointer;
+            margin-left: 2vw;
+            height: 8vh;
+            width: 15vw;
+            font-size: 1.2em;
+            border-radius: 50px;
+            color: white;
+            background-color: rgba(0, 136, 25, 1);
+            }
+            .security .buttons .continue:hover {
+                transition: 0.2s;
                 margin-left: 1vw;
-                height: 8vh;
-                width: 4vw;
-                }.forgotpass .bodycon .whitecon .return:hover {
-                    transition: 0.2s;
-                    margin-top: 8vh;
-                    margin-left: 1vw;
-                    height: 10vh;
-                    width: 5vw;
-                }
+                width: 20vw;
+            }
+    .security .nocode {
+        cursor: pointer;
+        margin-top: 3vh;
+        margin-left: 2vh;
+        font-size: 1em;
+        width: 8vw;
+        color: rgba(0, 136, 25, 1);
+    }
+
+
+
+
 
 
 
