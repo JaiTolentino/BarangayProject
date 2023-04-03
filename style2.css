@@ -14,6 +14,109 @@ h1, h2, h3, p {
 
 
 
+.forgotpass {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-image: url("backgroud.png");
+}
+    .forgotpass .headcon {
+        height: 8vh;
+        width: 100vw;
+        background-color: rgba(0, 136, 53);
+    }
+    .forgotpass .bodycon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 15vw;
+        height: 100vh;
+        width: 70vw;
+        background-color: rgba(0, 136, 52, 0.403);
+    }
+        .forgotpass .bodycon .whitecon {
+            position: relative;
+            margin-top: -8vh;
+            height: 75vh;
+            width: 50vw;
+            background-color: white;
+        }
+            .forgotpass .bodycon .whitecon .img {
+                margin-top: 2vh;
+                margin-left: 20vw;
+                height: 24vh;
+                width: 12vw;
+            }
+            .forgotpass .bodycon .whitecon .title {
+                margin-top: 3vh;
+                margin-left: 8vw;
+                font-size: 1.6em;
+                color: rgba(0, 136, 25, 1);
+            }
+            .forgotpass .bodycon .whitecon .info {
+                margin-top: 0vh;
+                margin-left: 6vw;
+                font-size: 1em;
+                color: rgba(0, 136, 25, 1);
+            }
+            .forgotpass .bodycon .whitecon .input {
+                display: flex;
+            }
+                .forgotpass .bodycon .whitecon .input .label {
+                    margin-left: 6vw;
+                    font-size: 1.3em;
+                    color: rgba(0, 136, 25, 1);;
+                }
+                .forgotpass .bodycon .whitecon .input input[type = number] {
+                    width: 28vw;
+                    padding: 3vh;
+                    margin-left: 1vw;
+                    border: 3px solid #f2f2f2;
+                    border-radius: 14px;
+                    background-color: #f2f2f2;
+                }
+                    .forgotpass .bodycon .whitecon .input input::-webkit-outer-spin-button,
+                    .forgotpass .bodycon .whitecon .input input::-webkit-inner-spin-button {
+                        -webkit-appearance: none;
+                    }
+                    .forgotpass .bodycon .whitecon .input input[type = number]:hover {
+                        transition: 0.2s;
+                        border: 3px solid rgba(0, 136, 25, 1);
+                    }
+            .forgotpass .bodycon .whitecon .btn {
+                cursor: pointer;
+                margin-top: 3vh;
+                margin-left: 18vw;
+                height: 8vh;
+                width: 15vw;
+                font-size: 1.2em;
+                border-radius: 50px;
+                color: white;
+                background-color: rgba(0, 136, 25, 1);
+                }.forgotpass .bodycon .whitecon .btn:hover {
+                    transition: 0.2s;
+                    margin-left: 17vw;
+                    height: 10vh;
+                    width: 17vw;
+                }
+            .forgotpass .bodycon .whitecon .return {
+                position: absolute;
+                cursor: pointer;
+                margin-top: 10vh;
+                margin-left: 1vw;
+                height: 8vh;
+                width: 4vw;
+                }.forgotpass .bodycon .whitecon .return:hover {
+                    transition: 0.2s;
+                    margin-top: 8vh;
+                    margin-left: 1vw;
+                    height: 10vh;
+                    width: 5vw;
+                }
+
+
+
 .login {
     margin: 0;
     height: 100%;
@@ -49,7 +152,7 @@ h1, h2, h3, p {
             width: 70vw;
             background-color: white;
         }
-            .login .interfacecon .emailtxt input[type="email"], 
+            .login .interfacecon .emailtxt input[type="number"], 
             .login .interfacecon .passwordtxt input[type="password"] {
                 width: 33vw;
                 padding: 4vh;
@@ -59,6 +162,10 @@ h1, h2, h3, p {
                 border-radius: 14px;
                 background-color: #f2f2f2;
                 box-sizing: border-box;
+            }
+            .login .interfacecon .emailtxt input::-webkit-outer-spin-button,
+            .login .interfacecon .emailtxt input::-webkit-inner-spin-button {
+                -webkit-appearance: none;
             }
             .login .flex-container .interfacecon h2 {
                 position: absolute;
@@ -82,7 +189,7 @@ h1, h2, h3, p {
                     transition: 0.3s;
                     background-color: rgba(0, 136, 25, 1);
                 }
-            .login .flex-container .interfacecon .forgotpass {
+            .login .flex-container .interfacecon .forgotpswrd {
                 cursor: pointer;
                 padding-top: 1.5vh;
                 text-align: center;
