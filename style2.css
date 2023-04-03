@@ -264,9 +264,6 @@ h1, h2, h3, p {
         font-size: 1em;
         color: rgba(0, 136, 25, 1);
     }
-
-
-
     .changepass .input {
         display: flex;
         margin-top: 0vh;
@@ -331,6 +328,60 @@ h1, h2, h3, p {
                 margin-left: 1vw;
                 width: 20vw;
             }
+
+
+
+.sdsdsds {
+
+}
+
+
+.successchange {
+    position: relative;
+    margin-top: -8vh;
+    height: 75vh;
+    width: 50vw;
+    background-color: white;
+}
+    .successchange .img {
+        margin-top: 8vh;
+        margin-left: 18.5vw;
+        height: 24vh;
+        width: 14vw;
+    }
+    .successchange .title {
+        margin-top: 3vh;
+        margin-left: 12vw;
+        font-size: 2.5em;
+        color: rgba(0, 136, 25, 1);
+    }
+    .successchange .info {
+        margin-top: -3vh;
+        margin-left: 1vw;
+        font-size: 1.2em;
+        text-align: center;
+        color: rgba(0, 136, 25, 1);
+    }
+    .successchange .btn {
+        cursor: pointer;
+        margin-top: 1vh;
+        margin-left: 15.5vw;
+        height: 8vh;
+        width: 20vw;
+        font-size: 1.2em;
+        border-radius: 50px;
+        color: white;
+        background-color: rgba(0, 136, 25, 1);
+        }
+        .successchange .btn:hover {
+            transition: 0.2s;
+            font-size: 1.4em;
+            margin-top: 0vh;
+            margin-left: 13.5vw;
+            height: 10vh;
+            width: 24vw;
+        }
+
 
 
 
