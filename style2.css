@@ -21,15 +21,19 @@ h1, h2, h3, p {
     overflow: hidden;
     background-color: rgba(0, 136, 53);
 }
-    .login .loginheadcon {
+    .login .headcon {
         display: flex;
         width: 100vw;
         height: 5em;
+        align-items: center;
         justify-content: center;
         background-color: white;
-        color: rgba(16, 14, 172, 1)
     }
-        .login .flex-container .loginlogocon {
+        .login .headcon h1 {
+            font-size: 3vw;
+            color: rgba(16, 14, 172, 1)
+        }
+        .login .flex-container .logocon {
             display: flex;
             margin-left: 9vw;
             margin-top: 10vh;
@@ -640,3 +644,102 @@ h1, h2, h3, p {
             .persinfo .bodycon .faminfo .footer {
                 height: 25vh;
             }
+
+
+
+.brgyoff {
+    min-height: 100%vh;
+}
+    .brgyoff .bodycon {
+        margin-right: 1vw;
+        overflow: auto;
+        width: 76vw;
+        height:100vh;
+        background-color: white;
+    }
+        .brgyoff .bodycon .topbody {
+            position:relative;
+            display: flex;
+            justify-content: left;
+            height: 80vh;
+        }
+            .brgyoff .bodycon .topbody .img {
+                position: absolute;
+                margin-top: 10vh;
+                margin-left: 13vw;
+                height: 60vh;
+                width: 20vw;
+            }
+            .brgyoff .bodycon .topbody .txt {
+                position: absolute;
+                height: 60vh;
+                width: 30vw;
+                margin-top: 10vh;
+                margin-left: 33vw;
+                color: rgba(0, 136, 25, 1);
+            }
+                .brgyoff .bodycon .topbody .chairman {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .brgyoff .bodycon .topbody .title {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: -2vh;
+                }
+                .brgyoff .bodycon .topbody .kagawad {
+                    margin-left: 3.5vw;
+                }
+                .brgyoff .bodycon .topbody span{
+                    padding-left: 6vw;
+                    font-weight: bold;
+                }
+        .brgyoff .bodycon .bottombody {
+            position:relative;
+            display: flex;
+            justify-content: right;
+            height: 80vh;
+        }
+            .brgyoff .bodycon .bottombody .img {
+                position: absolute;
+                margin-top: 10vh;
+                margin-right: 13vw;
+                height: 60vh;
+                width: 20vw;
+            }
+            .brgyoff .bodycon .bottombody .img {
+                position: absolute;
+                height: 60vh;
+                width: 20vw;
+            }
+            .brgyoff .bodycon .bottombody .txt {
+                position: absolute;
+                height: 60vh;
+                width: 30vw;
+                margin-top: 10vh;
+                margin-right: 33vw;
+                color: rgba(0, 136, 25, 1);
+            }
+            .brgyoff .bodycon .bottombody .chairman {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .brgyoff .bodycon .bottombody .title {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: -2vh;
+            }
+            .brgyoff .bodycon .bottombody .kagawad {
+                margin-left: 3.5vw;
+            }
+            .brgyoff .bodycon .bottombody span{
+                padding-left: 6vw;
+                font-weight: bold;
+            }
+        .brgyoff .bodycon .footer {
+            height: 20vh;
+        }
