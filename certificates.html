@@ -40,19 +40,37 @@
                         <h2 class = "headtxt">Certificates</h2>
                     </div>
                     <div class = "content">
-                            <img class = "img alt="Cert 1" src="images/cert-img1.png"/>
-                            <p class = "txt">Temporary description of the Certificate</p>
-                            <button class = "btn">APPLY</button>
+                        <img class = "img" alt="Cert 1" src="images/cert-img1.png"/>
+                        <p class = "txt">Temporary description of the Certificate</p>
+                        <button class = "btn" onclick="applycert1()">APPLY</button>
+                        <div class = "cert1" id = "cert1" style = "display: none">
+                            <img class = "applyicon" alt="Check Icon" src="images/check.png">
+                            <p class = "applytxt1">Successful Application!</p>
+                            <p class = "applytxt2">Wait for an SMS sent to your phone for the date of certification retrieval</p>
+                            <button class = "applybtn" onclick="closecert1()">OKAY</button>
+                        </div>
                     </div>
                     <div class = "content">
-                        <img class = "img alt="Cert 2" src="images/cert-img2.png"/>
+                        <img class = "img" alt="Cert 2" src="images/cert-img2.png"/>
                         <p class = "txt">Temporary description of the Certificate</p>
-                        <button class = "btn">APPLY</button>
+                        <button class = "btn" onclick="applycert2()">APPLY</button>
+                        <div class = "cert2" id = "cert2" style = "display: none">
+                            <img class = "applyicon" alt="Check Icon" src="images/check.png">
+                            <p class = "applytxt1">Successful Application!</p>
+                            <p class = "applytxt2">Wait for an SMS sent to your phone for the date of certification retrieval</p>
+                            <button class = "applybtn" onclick="closecert2()">OKAY</button>
+                        </div>
                     </div>
                     <div class = "content">
-                        <img class = "img alt="Cert 3" src="images/cert-img3.png"/>
+                        <img class = "img" alt="Cert 3" src="images/cert-img3.png"/>
                         <p class = "txt">Temporary description of the Certificate</p>
-                        <button class = "btn">APPLY</button>
+                        <button class = "btn" onclick="applycert3()">APPLY</button>
+                        <div class = "cert3" id = "cert3" style = "display: none">
+                            <img class = "applyicon" alt="Check Icon" src="images/check.png">
+                            <p class = "applytxt1">Successful Application!</p>
+                            <p class = "applytxt2">Wait for an SMS sent to your phone for the date of certification retrieval</p>
+                            <button class = "applybtn" onclick="closecert3()">OKAY</button>
+                        </div>
                     </div>
                     <div class = "footer"></div>
                 </div>
@@ -90,5 +108,6 @@
             </div>
         </div>
         <script src="scripts/time.js"></script>
+        <script src="scripts/certapplied.js"></script>
     </body>
 </html>

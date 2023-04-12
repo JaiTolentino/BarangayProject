@@ -713,6 +713,7 @@ h1, h2, h3, p {
                 background-color: white;
             }
             .cert .bodycon .content .btn {
+                cursor: pointer;
                 margin-left: .9vw;
                 height: 10vh;
                 width: 5vw;
@@ -733,6 +734,60 @@ h1, h2, h3, p {
                     background-color: white;
                     transition: 0.2s ease-in-out;
                 }
+            .cert .bodycon .content .cert1,
+            .cert .bodycon .content .cert2,
+            .cert .bodycon .content .cert3 {
+                z-index: 1;
+                position: absolute;
+                margin-top: 5vh;
+                margin-left: 22vw;
+                height: 70vh;
+                width: 50vw;    
+                border: 3px solid rgb(227, 227, 227);
+                border-radius: 100px;
+                background-color: rgba(0, 136, 25, 1);
+            }
+            .cert .bodycon .content .cert2 {
+                margin-top: -65vh;
+            }
+            .cert .bodycon .content .cert3 {
+                margin-top: -135vh;
+            }
+            .cert .bodycon .content .applyicon {
+                margin-top: 8vh;
+                margin-left: 17vw;
+                height: 26vh;
+                width: 16vw;
+            }
+            .cert .bodycon .content .applytxt1 {
+                margin-top: 4vh;
+                margin-left: 10vw;
+                font-size: 45px;
+                font-weight: bold;
+                color: white;
+            }
+            .cert .bodycon .content .applytxt2 {
+                margin-top: -4vh;
+                margin-left: 5vw;
+                font-size: 20px;
+                color: white;
+            }
+            .cert .bodycon .content .applybtn {
+                cursor: pointer;
+                margin-top: 0vh;
+                margin-left: 20vw;
+                font-size: 15px;
+                height: 8vh;
+                width: 10vw;
+                border: none;
+                border-radius: 100px;
+                color: rgba(0, 136, 25, 1);
+                background-color: white;
+            }
+            .cert .bodycon .content .applybtn:hover {
+                transition: 0.3s;
+                font-size: 150%;
+            }
         .cert .bodycon .footer {
             height: 20vh;
         }
