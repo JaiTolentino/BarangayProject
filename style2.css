@@ -14,6 +14,43 @@ h1, h2, h3, p {
 
 
 
+
+.terms {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 136, 53);
+}
+    .terms .headcon {
+        display: flex;
+        width: 100vw;
+        height: 4.5em;
+        background-color: transparent;
+    }
+        .terms .headcon .logocon {
+            z-index: 1;
+            margin-left: 1vw;
+            margin-top: 3vh;
+            height: 25vh;
+            width: 25vh;
+        }
+        .terms .headcon .brgy {
+            margin-left: 4vw;
+            margin-top: 2vh;
+            font-size: 2.8em;
+            color: rgba(251, 242, 207, 1);
+        }
+    .terms .bodycon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vw;
+        background-color: blue;
+    }
+
+
 .password {
     margin: 0;
     height: 100%;
@@ -331,11 +368,6 @@ h1, h2, h3, p {
 
 
 
-.sdsdsds {
-
-}
-
-
 .successchange {
     position: relative;
     margin-top: -8vh;
@@ -381,11 +413,6 @@ h1, h2, h3, p {
             height: 10vh;
             width: 24vw;
         }
-
-
-
-
-
 
 
 
